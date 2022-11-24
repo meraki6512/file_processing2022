@@ -1,0 +1,15 @@
+./st -a records.dat "20071234" "Gildong I" "Computer" "Dongjak-gu, Seoul" "gdhong@ssu.ac.kr"
+./st -a records.dat "11111111" "222" "333" "444" "sss"
+./st -a records.dat "22222222" "ㄴㄴㄴ" "333" "ㄷㄷㄷ" "ㄹㄹㄹ"
+./st -a records.dat "33333333" "bbb" "ccc" "ㄷㄷㄷ" "ddd"
+./st -a records.dat "333" "rrr" "333" "ㄷㄷㄷ" "sss"
+
+
+
+
+./st -s records.dat "NAME=Gildong I"
+./st -s records.dat "ID=20201482"
+./st -s records.dat "ID=333"
+./st -s records.dat "DEPT=333"
+./st -s records.dat "ADDR=ㄷㄷㄷ"
+./st -s records.dat "EMAIL=sss"
